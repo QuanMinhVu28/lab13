@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+body::before {
+  content: "";
+  height: 72px;
+  display: block;
+}
